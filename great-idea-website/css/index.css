@@ -52,6 +52,7 @@ table {
     box-sizing: border-box;
 }
 
+
 html, body {
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
@@ -64,3 +65,150 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.body-container{
+	width: 1000px;
+	margin: 0 auto;
+	background-color: white;
+}
+
+.nav-bar{
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: lightgray;
+	padding: 0 40px;
+	height: 65px;
+	line-height: 60px;
+	z-index: 10;
+
+
+	
+	
+}
+
+nav a{
+	padding-right: 65px;
+	color: black;
+	text-decoration: none;
+	margin-left: 35px;
+
+}
+
+nav a:hover{
+	color: white;
+}
+
+img.logo{
+	width: 180px;
+	height: 40px;
+	margin-top: 10px;
+	float: right;
+	margin-right: 100px;
+	position: relative;
+}
+/*   */
+
+
+
+
+.motto-container{
+	width: 100%;
+	padding: 10px 0px;
+	text-align: center;
+	margin: 30px 0px 100px 0px;
+}
+
+.sub-container, .logo-container{
+	display: inline-block;
+	vertical-align: middle;
+	margin-top: 100px;
+}
+
+.logo-container img{
+		width: 450px;
+		margin-left: 100px;
+		
+}
+
+.sub-container{
+	font-size: 70px;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+.button{
+	padding: 10px 45px;
+	margin: 0;
+	background-color: whitesmoke;
+	border: 1px black solid;
+	color: black;
+}
+
+.motto-container h1{
+	padding: 0px;
+	margin: 0px;
+}
+
+
+
+/* content start */
+
+.content1 {
+	width: 100%;
+	text-align: center;
+}
+
+.features-box, .about-box{
+	display: inline-block;
+	width: 450px;
+	text-align: left;
+	padding: 30px 0px 30px 0px;
+}
+
+.about-box{
+	padding-left: 30px;
+	margin-left: 20px;
+}
+
+.features-box{
+	margin-right: 40px;
+}
+
+.middle-img{
+	width: 1000px;
+}
+
+/* row 2 */
+
+.content2{
+	width: 100%;
+	text-align: center;
+}
+
+.services-box, .product-box, .vision-box{
+	display: inline-block;
+	width: 300px;
+	text-align: left;
+	padding: 30px 0px 30px 0px;
+}
+
+.services-box{
+	margin-right: 45px;
+}
+
+.vision-box{
+	margin-left: 45px;
+}
+
+.footer{
+	margin-top: 35px;
+}
+
+p.cr{
+	text-align: center;
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
